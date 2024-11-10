@@ -1,0 +1,61 @@
+What is an LLM?
+
+LADY GREY:
+The moment shows, yet time will twist its shade.
+
+POLIXENES:
+I see now, the trial in silence speaks loud.
+
+KING EDWARD IV:
+Forsooth, what hope dost thou seek? The sun’s rays falter,
+And yet a beggar’s plea must fall from grace.
+
+ 
+ Run history:
+                      Loss/iter ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+                     Loss/lossf █▆▆▆▆▆▆▆▆▅▅▅▄▄▄▄▄▃▃▃▃▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+                       Loss/mfu ████████████████████████▇██████████████▁
+                     Loss/train ████▅▅▅▅▄▄▄▄▃▃▃▃▃▃▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁
+                       Loss/val ████▃▃▃▃▃▃▃▃▁▁▁▁▁▁▁▁▁▁▁▁▃▃▃▃▄▄▄▄▅▅▅▅▅▅▅▅
+                  Timing/dt_avg ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█
+                 Timing/dt_iter ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█
+                  Timing/dt_tot ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█
+                 Timing/dtb_avg ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█
+                 Timing/dtb_tot ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁█
+                 Timing/dtf_avg ▂▁▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁█▁▂▁▁▁▁▁▁▁▁▁▂▁▁▁▂
+                 Timing/dtf_tot ▂▁▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▂▁▁▁█▁▂▁▁▁▁▁▁▁▁▁▂▁▁▁▂
+                    Timing/iter ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+         Timing/samples_per_sec ███████████████████████████████████████▁
+ Timing/samples_per_sec_per_gpu ███████████████████████████████████████▁
+            Timing/startup_time ▁
+          Timing/tokens_per_sec ███████████████████████████████████████▁
+  Timing/tokens_per_sec_per_gpu ███████████████████████████████████████▁
+                  Training/iter ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+                  Training/loss █▆▆▆▆▆▆▆▆▅▅▅▄▄▄▄▄▃▃▃▃▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+              Training/loss_tot █▆▆▆▆▆▆▆▆▅▅▅▄▄▄▄▄▃▃▃▃▃▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+                    Training/lr ▁▃▅▆████████████████████████████████████
+ 
+ Run summary:
+                      Loss/iter 1000
+                     Loss/lossf 0.07456
+                       Loss/mfu 42.95878
+                     Loss/train 0.08586
+                       Loss/val 3.36483
+                  Timing/dt_avg 0.34587
+                 Timing/dt_iter 0.61265
+                  Timing/dt_tot 0.34675
+                 Timing/dtb_avg 0.34049
+                 Timing/dtb_tot 0.34049
+                 Timing/dtf_avg 0.00626
+                 Timing/dtf_tot 0.00626
+                    Timing/iter 999
+         Timing/samples_per_sec 3.26452
+ Timing/samples_per_sec_per_gpu 1.63226
+            Timing/startup_time 6.42763
+          Timing/tokens_per_sec 213942.8451
+  Timing/tokens_per_sec_per_gpu 106973.63418
+                  Training/iter 999
+                  Training/loss 0.07234
+              Training/loss_tot 0.07234
+                    Training/lr 0.0006
+ 

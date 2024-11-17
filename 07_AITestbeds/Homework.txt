@@ -1,0 +1,18 @@
+﻿1. What are the key architectural features that make these systems suitable for AI workloads?
+
+The key architectural features that make Cerebras, Graphcore, SambaNova, and Groq suitable for AI workloads are specialized hardware, high memory bandwidth, and scalability. Specialized hardware is designed to compute certain things faster such as matrix multiplication. High memory bandwidth and larger on-chip memory help to make memory-intensive computations faster. Finally, scalability and parallel processing help to make training faster.
+
+2. Identify the primary differences between these AI accelerator systems in terms of their architecture and programming models.
+
+SambaNovas: Its RDU allows for flexible data processing with terabytes of memory that handles large data efficiently.
+Cerebras: Its Wafer-Scale Engine has processing elements that operate independently and store things on their own.
+Graphcore: Its IPU has interconnected processing tiles that each have their own core and local memory.
+Groq: Its TSP design is better suited for predictable execution, which is especially helpful for tasks like inference where quick responses are important.
+
+3. Based on hands-on sessions, describe a typical workflow for refactoring an AI model to run on one of ALCF's AI testbeds (e.g., SambaNova or Cerebras). What tools or software stacks are typically used in this process?
+
+Refactoring an AI model for Cerebras involves using the Cerebras SDK to optimize it onto its wafer-scale engine. Adaptation of models into frameworks like PyTorch or TensorFlow is pursued for compatibility. The SDK optimizes memory, computation locality, and tensor operations. Profiling tools are available that identify performance bottlenecks to drive refinements. This makes sure that the model leverages all the processing capabilities of Cerebras.
+
+
+4. Give an example of a project that would benefit from AI accelerators and why?
+Real-time protein folding simulation would be better done with AI accelerators like Cerebras or SambaNova. These systems power through significant compute and memory demands required to model complex molecular interactions, thus enabling faster simulations than traditional hardware. This would speed up drug discovery with near-instant results of how proteins act and interact in different conditions.

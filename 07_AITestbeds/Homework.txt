@@ -1,4 +1,5 @@
-﻿1. What are the key architectural features that make these systems suitable for AI workloads?
+Theory Homework
+1. What are the key architectural features that make these systems suitable for AI workloads?
 
 The key architectural features that make Cerebras, Graphcore, SambaNova, and Groq suitable for AI workloads are specialized hardware, high memory bandwidth, and scalability. Specialized hardware is designed to compute certain things faster such as matrix multiplication. High memory bandwidth and larger on-chip memory help to make memory-intensive computations faster. Finally, scalability and parallel processing help to make training faster.
 
